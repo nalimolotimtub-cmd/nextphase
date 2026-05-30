@@ -2,38 +2,43 @@ const translations = {
   th: {
     // Topbar
     topbar_phone: "โทร: 0xx-xxxxxxx",
-    topbar_email: "Email: nextphase@email.com",
+    topbar_email: "Email: nextphase.npe@gmail.com",
     topbar_line: "LINE: @nextphase",
 
     // Nav
     nav_home: "หน้าหลัก",
     nav_services: "บริการ",
     nav_solutions: "โซลูชัน",
+    nav_process: "ขั้นตอน",
     nav_projects: "ผลงาน",
     nav_contact: "ติดต่อ",
     nav_getquote: "ขอใบเสนอราคา",
 
     // Slider
-    slide1_title: "ออกแบบระบบโซลาร์เซลล์",
-    slide1_sub: "ครบวงจร ตั้งแต่ออกแบบ ติดตั้ง จนถึงบำรุงรักษา",
-    slide1_btn: "ดูบริการของเรา",
+     slide1_title: "ออกแบบ-ติดตั้ง ระบบไฟฟ้า • โซลาร์เซลล์ • Solar Pump",
+    slide1_sub: "บริการครบจบ ตั้งแต่สำรวจ ออกแบบ ติดตั้ง ทดสอบ และดูแลหลังการขาย",
+    slide1_btn1: "ติดต่อเรา",
+    slide1_btn2: "ดูบริการ",
 
-    slide2_title: "ติดตั้งโซลาร์ทุกประเภท",
-    slide2_sub: "ที่พักอาศัย โรงงาน และอาคารพาณิชย์",
-    slide2_btn: "ดูโซลูชัน",
+    slide2_title: "ออกแบบตามบิลค่าไฟและโหลดจริง",
+    slide2_sub: "เลือกอุปกรณ์เหมาะกับหน้างาน พร้อมบริการตรวจเช็คตามรอบ",
+    slide2_btn1: "ดูโซลูชัน",
+    slide2_btn2: "ดูผลงาน",
 
-    slide3_title: "วิศวกรมืออาชีพ",
-    slide3_sub: "ทีมวิศวกรที่มีใบอนุญาต พร้อมดูแลโครงการของคุณ",
-    slide3_btn: "เกี่ยวกับเรา",
+    slide3_title: "สูบน้ำเพื่อการเกษตร ลดค่าไฟ",
+    slide3_sub: "เลือกปั๊มตามระยะส่ง/ความลึก พร้อมสอนใช้งาน",
+    slide3_btn1: "ดูบริการ",
+    slide3_btn2: "ขอประเมินหน้างาน",
 
-    slide4_title: "ประหยัดพลังงาน ลดค่าไฟ",
-    slide4_sub: "เพิ่ม ROI ด้วยระบบโซลาร์ที่เหมาะสมกับความต้องการ",
-    slide4_btn: "คำนวณการประหยัด",
+    slide4_title: "เดินสาย ตู้ MDB/DB ตู้คอนโทรล",
+    slide4_sub: "ติดตั้งตามมาตรฐานความปลอดภัย และทดสอบก่อนส่งมอบ",
+    slide4_btn1: "ขั้นตอนการทำงาน",
+    slide4_btn2: "ติดต่อเรา",
 
-    slide5_title: "บริการหลังการขายครบครัน",
-    slide5_sub: "ดูแลและบำรุงรักษาระบบตลอดอายุการใช้งาน",
-    slide5_btn: "ติดต่อเรา",
-
+    slide5_title: "ให้บริการทั่วประเทศ",
+    slide5_sub: "ปรึกษาฟรี ส่งรูปหน้างาน/พิกัดเพื่อประเมินเบื้องต้นได้",
+    slide5_btn1: "ติดต่อทันที",
+    
     // Services Section
     services_badge: "บริการของเรา",
     services_title: "บริการวิศวกรรมโซลาร์เซลล์",
@@ -154,7 +159,7 @@ const translations = {
     footer_projects: "ผลงาน",
     footer_contact: "ติดต่อ",
     footer_contact_title: "ติดต่อ",
-    footer_rights: "© 2024 NEXT PHASE Co., Ltd. สงวนลิขสิทธิ์",
+    footer_rights: "© 2026 NEXT PHASE Co., Ltd.",
 
     // Services Page
     svc_hero_title: "บริการของเรา",
@@ -438,7 +443,7 @@ const translations = {
     footer_projects: "Projects",
     footer_contact: "Contact",
     footer_contact_title: "Contact",
-    footer_rights: "© 2024 NEXT PHASE Co., Ltd. All Rights Reserved",
+    footer_rights: "© 2026 NEXT PHASE Co., Ltd.",
 
     // Services Page
     svc_hero_title: "Our Services",

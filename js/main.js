@@ -256,3 +256,31 @@ if (burger && nav) {
     }
   });
 })();
+
+// ============================================
+// Dynamic --topbar-h
+// คำนวณความสูง topbar จริง แล้ว set ลง CSS variable
+// รองรับ resize + orientation change
+// ============================================
+(function initTopbarHeight() {
+  const topbar = document.querySelector(".topbar");
+  if (!topbar) return;
+
+  function update() {
+    const h = topbar.getBoundingClientRect().height;
+    document.documentElement.style.setProperty("--topbar-h", h + "px");
+  }
+
+  // รันทันทีตอนโหลด
+  update();
+
+  // รันอีกครั้งหลัง font/layout load เสร็จ (กัน flash)
+  window.addEventListener("load", update);
+
+  // รันทุกครั้งที่ resize หรือหมุนจอ
+  window.addEventListener("resize", update);
+  window.addEventListener("orientationchange", () => {
+    // delay เล็กน้อยเพราะ orientationchange fires ก่อน layout อัปเดต
+    setTimeout(update, 120);
+  });
+})();
